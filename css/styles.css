@@ -214,6 +214,7 @@
   display: grid;
   -ms-grid-columns: 1fr 25px 1fr 25px 1fr 25px 1fr;
   grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
   grid-auto-rows: 200px;
   gap: 25px;
 }
@@ -228,6 +229,61 @@
   height: 200px;
 }
 .nft .collection .cards-item__image {
+  width: 100%;
+  height: 100%;
+}
+.nft .collection__btn {
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-top: 50px;
+}
+
+.nft .mint {
+  padding-top: 150px;
+  background-image: url("/images/home/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.nft .mint-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+}
+.nft .mint .info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+.nft .mint .info-item {
+  padding: 25px;
+}
+.nft .mint .info-item__title {
+  color: #ecffe1;
+  font-size: 1.3rem;
+}
+.nft .mint .info-item__score {
+  color: #ecffe1;
+  font-size: 4rem;
+}
+.nft .mint .info-item__total {
+  color: #93d676;
+  font-size: 2rem;
+}
+.nft .mint .info-item .btn {
+  display: block;
+  width: 75%;
+  text-align: center;
+}
+.nft .mint .images__item {
+  display: block;
   width: 100%;
   height: 100%;
 }
@@ -327,6 +383,25 @@
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
   }
+  .nft .mint .wrapper {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .nft .mint .info-item__title {
+    font-size: 1.2rem;
+  }
+  .nft .mint .info-item__score {
+    font-size: 3.5rem;
+  }
+  .nft .mint .info-item__total {
+    font-size: 1.5rem;
+  }
+  .nft .mint .images__item {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+  }
   .title {
     font-size: 2.5rem;
   }
@@ -339,6 +414,15 @@
     font-size: 3rem;
   }
   .nft .home__description {
+    font-size: 1.3rem;
+  }
+  .nft .mint .info-item__title {
+    font-size: 1.1rem;
+  }
+  .nft .mint .info-item__score {
+    font-size: 3rem;
+  }
+  .nft .mint .info-item__total {
     font-size: 1.3rem;
   }
   .title {
@@ -380,6 +464,32 @@
   .nft .collection .cards {
     -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
+  }
+  .nft .collection__btn {
+    margin-top: 25px;
+    width: 100%;
+  }
+  .nft .mint {
+    padding-top: 100px;
+  }
+  .nft .mint .info {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nft .mint .info-item {
+    padding: 20px;
+  }
+  .nft .mint .info-item__title {
+    font-size: 1rem;
+  }
+  .nft .mint .info-item__score {
+    font-size: 2rem;
+  }
+  .nft .mint .info-item__total {
+    font-size: 1.2rem;
+  }
+  .nft .mint .info .btn {
+    width: 100%;
   }
   .social-item__image {
     width: 35px;

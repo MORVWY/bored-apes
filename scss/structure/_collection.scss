@@ -14,6 +14,7 @@
       margin-top: 50px;
       display: grid;
       grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
       grid-auto-rows: 200px;
       gap: 25px;
 
@@ -33,6 +34,13 @@
           height: 100%;
         }
       }
+    }
+
+    &__btn {
+      display: block;
+      margin: 0 auto;
+      box-shadow: none;
+      margin-top: 50px;
     }
   }
 }

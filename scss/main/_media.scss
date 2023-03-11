@@ -128,6 +128,37 @@
         grid-template-columns: repeat(2, 1fr);
       }
     }
+
+    .mint {
+      .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+      }
+
+      .info {
+        &-item {
+          &__title {
+            font-size: 1.2rem;
+          }
+
+          &__score {
+            font-size: 3.5rem;
+          }
+
+          &__total {
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      .images {
+        &__item {
+          display: block;
+          margin: 0 auto;
+          width: 50%;
+          height: auto;
+        }
+      }
+    }
   }
 
   .title {
@@ -148,6 +179,24 @@
 
       &__description {
         font-size: 1.3rem;
+      }
+    }
+
+    .mint {
+      .info {
+        &-item {
+          &__title {
+            font-size: 1.1rem;
+          }
+
+          &__score {
+            font-size: 3rem;
+          }
+
+          &__total {
+            font-size: 1.3rem;
+          }
+        }
       }
     }
   }
@@ -207,6 +256,36 @@
 
       .cards {
         grid-template-columns: repeat(1, 1fr);
+      }
+
+      &__btn {
+        margin-top: 25px;
+        width: 100%;
+      }
+    }
+
+    .mint {
+      padding-top: 100px;
+      .info {
+        grid-template-columns: repeat(2, 1fr);
+        &-item {
+          padding: 20px;
+          &__title {
+            font-size: 1rem;
+          }
+
+          &__score {
+            font-size: 2rem;
+          }
+
+          &__total {
+            font-size: 1.2rem;
+          }
+        }
+
+        .btn {
+          width: 100%;
+        }
       }
     }
   }
