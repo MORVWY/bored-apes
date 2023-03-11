@@ -1,0 +1,54 @@
+.header {
+  background-color: $main-color;
+
+  .wrapper {
+    padding: 0 15px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: relative;
+
+    &-image {
+      &__item {
+      }
+    }
+
+    .list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
+
+      &-item {
+        &__link {
+          color: $white-color;
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    &__btn {
+      a {
+      }
+    }
+
+    .hamb {
+      display: none;
+      cursor: pointer;
+
+      &__bar {
+        display: block;
+        width: 35px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: $white-color;
+      }
+    }
+  }
+}

@@ -1,4 +1,11 @@
 @import "./main/variables";
+@import "./main/fonts";
+@import "./main/btn";
+@import "./main/classes";
+
+@import "./structure/nav";
+
+@import "./main/media";
 
 * {
   box-sizing: border-box;
@@ -18,8 +25,7 @@ body {
 }
 
 main {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 a {
