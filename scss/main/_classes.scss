@@ -2,12 +2,6 @@
   overflow-y: hidden;
 }
 
-.gradient-text {
-  background: linear-gradient(0deg, #f6fff2 0%, #c3ffa9 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .social {
   display: flex;
   justify-content: center;
@@ -26,4 +20,20 @@
       }
     }
   }
+}
+
+.title {
+  background: linear-gradient(0deg, #f6fff2 0%, #c3ffa9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.description {
+  text-align: center;
+  font-size: 2rem;
+  color: $text-color;
 }

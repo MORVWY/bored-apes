@@ -25,6 +25,20 @@
         font-size: 1.7rem;
       }
     }
+
+    .collection {
+      .cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .description {
+    font-size: 1.7rem;
   }
 }
 
@@ -108,6 +122,20 @@
         font-size: 1.5rem;
       }
     }
+
+    .collection {
+      .cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .description {
+    font-size: 1.5rem;
   }
 }
 
@@ -122,6 +150,14 @@
         font-size: 1.3rem;
       }
     }
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1.3rem;
   }
 }
 
@@ -144,8 +180,7 @@
 
   .nft {
     .home {
-      padding-top: 100px;
-      padding-bottom: 100px;
+      padding: 100px 0;
       &__title {
         font-size: 2rem;
       }
@@ -167,13 +202,29 @@
       }
     }
 
-    .social {
-      &-item {
-        &__image {
-          width: 35px;
-          height: 35px;
-        }
+    .collection {
+      padding: 100px 0;
+
+      .cards {
+        grid-template-columns: repeat(1, 1fr);
       }
     }
+  }
+
+  .social {
+    &-item {
+      &__image {
+        width: 35px;
+        height: 35px;
+      }
+    }
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 1rem;
   }
 }

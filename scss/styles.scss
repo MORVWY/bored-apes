@@ -5,6 +5,7 @@
 
 @import "./structure/nav";
 @import "./structure/home";
+@import "./structure/collection";
 
 @import "./main/media";
 
@@ -20,13 +21,9 @@ html {
 
 body {
   width: 100%;
-  height: 10000px;
+  height: auto;
   font-family: "Alfa Slab One", cursive;
   overflow-x: hidden;
-}
-
-main {
-  padding: 0 15px;
 }
 
 a {
@@ -42,4 +39,5 @@ ul {
 .wrapper {
   max-width: 1230px;
   margin: 0 auto;
+  padding: 0 15px;
 }

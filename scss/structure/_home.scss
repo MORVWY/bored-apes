@@ -1,14 +1,4 @@
 .nft {
-  background-image: url("/images/home/banner-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 100%;
-  height: auto;
-
   .home {
     display: flex;
     align-items: center;
@@ -17,8 +7,20 @@
     padding-bottom: 250px;
     position: relative;
 
+    background-image: url("/images/home/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
     &__title {
-      margin: 0 auto;
+      background: linear-gradient(0deg, #f6fff2 0%, #c3ffa9 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       text-transform: uppercase;
       text-align: center;
       font-size: 5rem;
