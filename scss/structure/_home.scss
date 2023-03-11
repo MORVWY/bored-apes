@@ -1,0 +1,66 @@
+.nft {
+  background-image: url("/images/home/banner-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+
+  .home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-bottom: 250px;
+    position: relative;
+
+    &__title {
+      margin: 0 auto;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 5rem;
+    }
+
+    &__description {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 2rem;
+      color: $text-color;
+    }
+
+    &__btn {
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+
+    .home-ape__image-1,
+    .home-ape__image-2,
+    .home-ape__image-3,
+    .home-ape__image-4 {
+      position: absolute;
+      width: 20%;
+      height: auto;
+      bottom: 0;
+    }
+
+    .home-ape__image-1 {
+      left: 1%;
+    }
+
+    .home-ape__image-4 {
+      left: 18%;
+    }
+
+    .home-ape__image-2 {
+      right: 1%;
+    }
+
+    .home-ape__image-3 {
+      right: 18%;
+    }
+  }
+}

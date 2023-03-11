@@ -4,6 +4,7 @@
 @import "./main/classes";
 
 @import "./structure/nav";
+@import "./structure/home";
 
 @import "./main/media";
 
@@ -19,7 +20,7 @@ html {
 
 body {
   width: 100%;
-  height: auto;
+  height: 10000px;
   font-family: "Alfa Slab One", cursive;
   overflow-x: hidden;
 }

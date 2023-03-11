@@ -11,6 +11,7 @@
     align-items: center;
     padding: 20px 0;
     position: relative;
+    z-index: 100;
 
     &-image {
       &__item {
@@ -27,11 +28,18 @@
         &__link {
           color: $white-color;
           font-size: 1.2rem;
+          transition: all 0.5s ease;
+
+          &:hover {
+            color: #c3ffa9;
+          }
         }
       }
     }
 
     &__btn {
+      box-shadow: none;
+
       a {
       }
     }
