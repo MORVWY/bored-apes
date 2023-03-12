@@ -271,6 +271,27 @@
         }
       }
     }
+
+    .faq {
+      &-wrapper {
+        flex-direction: column;
+      }
+
+      .info {
+        width: 100%;
+        .list {
+          .item {
+            &__question {
+              font-size: 1.2rem;
+            }
+
+            &__answer {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
   }
 
   .title {
@@ -388,6 +409,10 @@
           }
         }
       }
+    }
+
+    .faq {
+      padding: 100px 0;
     }
   }
 

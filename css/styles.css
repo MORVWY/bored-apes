@@ -416,6 +416,60 @@
   text-align: center;
 }
 
+.nft .faq {
+  background-color: #23162c;
+  padding: 150px 0;
+}
+.nft .faq-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 25px;
+}
+.nft .faq .info {
+  width: 65%;
+}
+.nft .faq .info__title {
+  text-align: left;
+}
+.nft .faq .info .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+.nft .faq .info .list .item {
+  background: -webkit-gradient(linear, left bottom, left top, from(#f6fff2), to(#c3ffa9));
+  background: linear-gradient(0deg, #f6fff2 0%, #c3ffa9 100%);
+  padding: 15px;
+  color: #2c3333;
+  margin-top: 15px;
+}
+.nft .faq .info .list .item__question {
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+.nft .faq .info .list .item__answer {
+  margin-top: 15px;
+}
+.nft .faq-image {
+  width: 50%;
+}
+.nft .faq-image__item {
+  width: 100%;
+  height: auto;
+}
+
 @media (max-width: 1200px) {
   .header .navbar .list {
     gap: 20px;
@@ -590,6 +644,21 @@
   .nft .team .members .card__title {
     font-size: 1.3rem;
   }
+  .nft .faq-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .nft .faq .info {
+    width: 100%;
+  }
+  .nft .faq .info .list .item__question {
+    font-size: 1.2rem;
+  }
+  .nft .faq .info .list .item__answer {
+    font-size: 0.9rem;
+  }
   .title {
     font-size: 2rem;
   }
@@ -678,6 +747,9 @@
   }
   .nft .team .members .card__description {
     font-size: 1rem;
+  }
+  .nft .faq {
+    padding: 100px 0;
   }
   .social-item__image {
     width: 35px;
