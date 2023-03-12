@@ -1,7 +1,8 @@
 .nft {
   .faq {
     background-color: $main-color;
-    padding: 150px 0;
+    padding-top: 150px;
+    position: relative;
 
     &-wrapper {
       display: flex;
@@ -10,7 +11,8 @@
       gap: 25px;
     }
     .info {
-      width: 65%;
+      width: 55%;
+      padding-bottom: 50px;
       &__title {
         text-align: left;
       }
@@ -37,9 +39,11 @@
     }
 
     &-image {
-      width: 50%;
       &__item {
-        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 35%;
         height: auto;
       }
     }

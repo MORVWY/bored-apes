@@ -291,6 +291,16 @@
           }
         }
       }
+
+      &-image {
+        &__item {
+          display: block;
+          margin: 0 auto;
+          position: relative;
+          width: 50%;
+          height: auto;
+        }
+      }
     }
   }
 
@@ -412,7 +422,26 @@
     }
 
     .faq {
+      padding-top: 100px;
+
+      &-image {
+        &__item {
+          width: 75%;
+          height: auto;
+        }
+      }
+    }
+
+    .join {
       padding: 100px 0;
+
+      &-wrapper {
+        width: 100%;
+      }
+
+      &__btn {
+        width: 100%;
+      }
     }
   }
 

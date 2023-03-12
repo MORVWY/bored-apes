@@ -69,6 +69,13 @@
   color: #ecffe1;
 }
 
+.text-3d {
+  -webkit-filter: drop-shadow(2px 5px 0px #23162c);
+          filter: drop-shadow(2px 5px 0px #23162c);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #23162c;
+}
+
 .header {
   background-color: #23162c;
 }
@@ -418,7 +425,8 @@
 
 .nft .faq {
   background-color: #23162c;
-  padding: 150px 0;
+  padding-top: 150px;
+  position: relative;
 }
 .nft .faq-wrapper {
   display: -webkit-box;
@@ -433,7 +441,8 @@
   gap: 25px;
 }
 .nft .faq .info {
-  width: 65%;
+  width: 55%;
+  padding-bottom: 50px;
 }
 .nft .faq .info__title {
   text-align: left;
@@ -462,12 +471,41 @@
 .nft .faq .info .list .item__answer {
   margin-top: 15px;
 }
-.nft .faq-image {
-  width: 50%;
-}
 .nft .faq-image__item {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35%;
+  height: auto;
+}
+
+.nft .join {
+  padding: 150px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("/images/join/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   width: 100%;
   height: auto;
+}
+.nft .join__description {
+  margin-top: 25px;
+}
+.nft .join__btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1200px) {
@@ -659,6 +697,13 @@
   .nft .faq .info .list .item__answer {
     font-size: 0.9rem;
   }
+  .nft .faq-image__item {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 50%;
+    height: auto;
+  }
   .title {
     font-size: 2rem;
   }
@@ -749,7 +794,20 @@
     font-size: 1rem;
   }
   .nft .faq {
+    padding-top: 100px;
+  }
+  .nft .faq-image__item {
+    width: 75%;
+    height: auto;
+  }
+  .nft .join {
     padding: 100px 0;
+  }
+  .nft .join-wrapper {
+    width: 100%;
+  }
+  .nft .join__btn {
+    width: 100%;
   }
   .social-item__image {
     width: 35px;

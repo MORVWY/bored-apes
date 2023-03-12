@@ -1,0 +1,28 @@
+.nft {
+  .join {
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-image: url("/images/join/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+    &__description {
+      margin-top: 25px;
+    }
+    &__btn {
+      display: block;
+      margin: 0 auto;
+      margin-top: 50px;
+      text-transform: uppercase;
+    }
+  }
+}
