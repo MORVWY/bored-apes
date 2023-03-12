@@ -45,6 +45,13 @@
         }
       }
     }
+
+    .team {
+      .members {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 45px;
+      }
+    }
   }
 
   .title {
@@ -176,7 +183,7 @@
 
     .rm {
       .cards {
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: repeat(2, 1fr);
         .card {
           &__title {
             font-size: 1.5rem;
@@ -184,6 +191,16 @@
 
           &__description {
             font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .team {
+      .members {
+        .card {
+          &__title {
+            font-size: 1.4rem;
           }
         }
       }
@@ -238,6 +255,18 @@
 
           &__description {
             font-size: 0.9rem;
+          }
+        }
+      }
+    }
+
+    .team {
+      .members {
+        grid-template-columns: repeat(2, 1fr);
+
+        .card {
+          &__title {
+            font-size: 1.3rem;
           }
         }
       }
@@ -335,10 +364,27 @@
     .rm {
       padding: 100px 0;
       .cards {
-        grid-template-columns: repeat(1, 3fr);
+        grid-template-columns: repeat(1, 1fr);
         .card {
           &__title {
             font-size: 1.2rem;
+          }
+        }
+      }
+    }
+
+    .team {
+      padding: 100px 0;
+      .members {
+        grid-template-columns: repeat(1, 1fr);
+
+        .card {
+          &__title {
+            font-size: 1.2rem;
+          }
+
+          &__description {
+            font-size: 1rem;
           }
         }
       }
