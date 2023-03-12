@@ -2,17 +2,6 @@
   .team {
     padding: 150px 0;
 
-    background-image: url("/images/home/banner-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-
     &__description {
       margin-top: 25px;
     }

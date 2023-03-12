@@ -2,17 +2,6 @@
   .mint {
     padding-top: 150px;
 
-    background-image: url("/images/home/banner-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-
     &-wrapper {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
