@@ -1,0 +1,17 @@
+.nft {
+  .follow {
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $main-color;
+
+    &__description {
+      margin-top: 25px;
+    }
+
+    &-social {
+      margin-top: 50px;
+    }
+  }
+}
