@@ -304,6 +304,12 @@
     }
   }
 
+  .footer {
+    &__text {
+      font-size: 1rem;
+    }
+  }
+
   .title {
     font-size: 2rem;
   }
@@ -446,6 +452,12 @@
 
     .follow {
       padding: 100px 0;
+    }
+  }
+
+  .footer {
+    &__text {
+      font-size: 0.9rem;
     }
   }
 

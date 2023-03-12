@@ -1,0 +1,20 @@
+.footer {
+  padding: 25px 0;
+  background-color: $main-color;
+  border-top: 1px solid $dark-color;
+
+  &__text {
+    text-align: center;
+    color: $text-color;
+    font-size: 1.1rem;
+
+    a {
+      color: $green-color;
+      text-transform: uppercase;
+
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+  }
+}

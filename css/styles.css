@@ -529,6 +529,24 @@
   margin-top: 50px;
 }
 
+.footer {
+  padding: 25px 0;
+  background-color: #23162c;
+  border-top: 1px solid #2c3333;
+}
+.footer__text {
+  text-align: center;
+  color: #ecffe1;
+  font-size: 1.1rem;
+}
+.footer__text a {
+  color: #93d676;
+  text-transform: uppercase;
+}
+.footer__text a:hover {
+  opacity: 0.75;
+}
+
 @media (max-width: 1200px) {
   .header .navbar .list {
     gap: 20px;
@@ -725,6 +743,9 @@
     width: 50%;
     height: auto;
   }
+  .footer__text {
+    font-size: 1rem;
+  }
   .title {
     font-size: 2rem;
   }
@@ -832,6 +853,9 @@
   }
   .nft .follow {
     padding: 100px 0;
+  }
+  .footer__text {
+    font-size: 0.9rem;
   }
   .social-item__image {
     width: 35px;
