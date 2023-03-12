@@ -76,6 +76,31 @@
   -webkit-text-stroke-color: #23162c;
 }
 
+.scroll-btn {
+  position: fixed;
+  right: 2%;
+  bottom: 4%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ecffe1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+  display: none;
+}
+.scroll-btn:active {
+  scale: 0.9;
+}
+
 .header {
   background-color: #23162c;
 }
