@@ -333,8 +333,7 @@
 }
 
 .nft .rm {
-  padding-top: 150px;
-  padding-bottom: 75px;
+  padding: 150px 0;
   background-color: #23162c;
 }
 .nft .rm__description {
@@ -600,8 +599,8 @@
     font-size: 1.7rem;
   }
   .nft .collection .cards {
-    -ms-grid-columns: (1fr)[2];
-    grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
   }
   .nft .rm .cards .card__title {
     font-size: 1.7rem;
@@ -623,6 +622,7 @@
 }
 @media (max-width: 992px) {
   .header .navbar {
+    position: relative;
     padding: 10px 0;
   }
   .header .navbar .list {
@@ -672,9 +672,11 @@
     -webkit-transform: translateY(-8px) rotate(-45deg);
             transform: translateY(-8px) rotate(-45deg);
   }
-  .header .navbar__btn {
+  .header .navbar .link__btn {
     position: absolute;
     right: 10%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
   }
   .nft .home {
     padding-bottom: 150px;
@@ -793,7 +795,7 @@
   .header .navbar .list-item__link {
     font-size: 1.5rem;
   }
-  .header .navbar__btn {
+  .header .navbar .link {
     display: none;
   }
   .nft .home {
