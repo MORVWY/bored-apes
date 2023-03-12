@@ -95,35 +95,10 @@ function animationRender() {
     });
   }
 
-  function showCardsAnimation() {
-    let options = {
-      root: null,
-      rootMargin: "1px",
-      threshold: 0.01,
-    };
-
-    let callback = function (entries, observer) {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("scale-in-center");
-          observer.unobserve(entry.target);
-        }
-      });
-    };
-
-    let observer = new IntersectionObserver(callback, options);
-
-    let targets = document.querySelectorAll(".anim-cards");
-    targets.forEach((target) => {
-      observer.observe(target);
-    });
-  }
-
   showRightAnimation();
   showLeftAnimtaion();
   showHeaderAnimation();
   showDescriptionAnimation();
-  showCardsAnimation();
 }
 
 export { animationRender };
