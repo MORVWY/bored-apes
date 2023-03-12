@@ -6,7 +6,7 @@ function onHamb() {
     hamb.classList.toggle("active");
     nav.classList.toggle("activeNav");
 
-    checkOverflow();
+    document.body.classList.toggle("overflowHidden");
   });
 
   document.querySelectorAll(".list-item__link").forEach((item) => {
@@ -14,17 +14,9 @@ function onHamb() {
       hamb.classList.remove("active");
       nav.classList.remove("activeNav");
 
-      checkOverflow();
+      document.body.classList.remove("overflowHidden");
     });
   });
-
-  function checkOverflow() {
-    if (document.body.classList.contains("overflowHidden")) {
-      document.body.classList.remove("overflowHidden");
-    } else {
-      document.body.classList.add("overflowHidden");
-    }
-  }
 }
 
 export { onHamb };
