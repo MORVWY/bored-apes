@@ -1,20 +1,22 @@
-.btn {
-  padding: 15px 30px;
-  border: none;
-  border-radius: 5px;
-  background: linear-gradient(90deg, #f6fff2 0%, #c3ffa9 100%);
-  font-family: "Alfa Slab One", cursive;
-  color: $dark-color;
-  cursor: pointer;
-  transition: all 0.5s ease;
-  box-shadow: $btn-shadow;
+.link {
+  &__btn {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #f6fff2 0%, #c3ffa9 100%);
+    font-family: "Alfa Slab One", cursive;
+    color: $dark-color;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: $btn-shadow;
 
-  &:hover {
-    transform: translateY(2px);
-    box-shadow: none;
-  }
+    &:hover {
+      transform: translateY(2px);
+      box-shadow: none;
+    }
 
-  &:active {
-    transform: scale(90%);
+    &:active {
+      transform: scale(90%);
+    }
   }
 }

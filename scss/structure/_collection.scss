@@ -36,11 +36,13 @@
       }
     }
 
-    &__btn {
-      display: block;
-      margin: 0 auto;
-      box-shadow: none;
-      margin-top: 50px;
+    .link {
+      &__btn {
+        display: block;
+        margin: 0 auto;
+        box-shadow: none;
+        margin-top: 50px;
+      }
     }
   }
 }

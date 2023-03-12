@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
-.btn {
+.link__btn {
   padding: 15px 30px;
   border: none;
   border-radius: 5px;
@@ -13,13 +13,13 @@
   -webkit-box-shadow: 0 5px 0px 0px #2c3333;
           box-shadow: 0 5px 0px 0px #2c3333;
 }
-.btn:hover {
+.link__btn:hover {
   -webkit-transform: translateY(2px);
           transform: translateY(2px);
   -webkit-box-shadow: none;
           box-shadow: none;
 }
-.btn:active {
+.link__btn:active {
   -webkit-transform: scale(90%);
           transform: scale(90%);
 }
@@ -142,7 +142,7 @@
 .header .navbar .list-item__link:hover {
   color: #c3ffa9;
 }
-.header .navbar__btn {
+.header .navbar .link__btn {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -196,7 +196,7 @@
   font-size: 2rem;
   color: #ecffe1;
 }
-.nft .home__btn {
+.nft .home .link__btn {
   display: block;
   margin: 0 auto;
   margin-top: 50px;
@@ -264,7 +264,7 @@
   width: 100%;
   height: 100%;
 }
-.nft .collection__btn {
+.nft .collection .link__btn {
   display: block;
   margin: 0 auto;
   -webkit-box-shadow: none;
@@ -310,15 +310,26 @@
   color: #93d676;
   font-size: 2rem;
 }
-.nft .mint .info-item .btn {
-  display: block;
-  width: 75%;
-  text-align: center;
-}
 .nft .mint .images__item {
   display: block;
   width: 100%;
   height: 100%;
+}
+.nft .mint .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nft .mint .link__btn {
+  display: block;
+  width: 75%;
+  text-align: center;
 }
 
 .nft .rm {
@@ -526,7 +537,7 @@
 .nft .join__description {
   margin-top: 25px;
 }
-.nft .join__btn {
+.nft .join .link__btn {
   display: block;
   margin: 0 auto;
   margin-top: 50px;

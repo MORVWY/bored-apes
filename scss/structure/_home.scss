@@ -33,10 +33,12 @@
       color: $text-color;
     }
 
-    &__btn {
-      display: block;
-      margin: 0 auto;
-      margin-top: 50px;
+    .link {
+      &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+      }
     }
 
     .home-ape__image-1,
