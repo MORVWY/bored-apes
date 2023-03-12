@@ -31,6 +31,20 @@
         grid-template-columns: repeat(2, 1fr);
       }
     }
+
+    .rm {
+      .cards {
+        .card {
+          &__title {
+            font-size: 1.7rem;
+          }
+
+          &__description {
+            font-size: 1.1rem;
+          }
+        }
+      }
+    }
   }
 
   .title {
@@ -159,6 +173,21 @@
         }
       }
     }
+
+    .rm {
+      .cards {
+        grid-template-columns: repeat(2, 2fr);
+        .card {
+          &__title {
+            font-size: 1.5rem;
+          }
+
+          &__description {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
   }
 
   .title {
@@ -195,6 +224,20 @@
 
           &__total {
             font-size: 1.3rem;
+          }
+        }
+      }
+    }
+
+    .rm {
+      .cards {
+        .card {
+          &__title {
+            font-size: 1.3rem;
+          }
+
+          &__description {
+            font-size: 0.9rem;
           }
         }
       }
@@ -285,6 +328,18 @@
 
         .btn {
           width: 100%;
+        }
+      }
+    }
+
+    .rm {
+      padding: 100px 0;
+      .cards {
+        grid-template-columns: repeat(1, 3fr);
+        .card {
+          &__title {
+            font-size: 1.2rem;
+          }
         }
       }
     }
