@@ -23,6 +23,7 @@
       justify-content: center;
       align-items: center;
       gap: 35px;
+      z-index: 2;
 
       &-item {
         &__link {
@@ -38,6 +39,7 @@
     }
 
     .link {
+      z-index: 1;
       &__btn {
         box-shadow: none;
       }
@@ -46,6 +48,7 @@
     .hamb {
       display: none;
       cursor: pointer;
+      z-index: 3;
 
       &__bar {
         display: block;

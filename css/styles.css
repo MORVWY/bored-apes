@@ -267,6 +267,7 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 35px;
+  z-index: 2;
 }
 .header .navbar .list-item__link {
   color: #fff;
@@ -277,6 +278,9 @@
 .header .navbar .list-item__link:hover {
   color: #c3ffa9;
 }
+.header .navbar .link {
+  z-index: 1;
+}
 .header .navbar .link__btn {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -284,6 +288,7 @@
 .header .navbar .hamb {
   display: none;
   cursor: pointer;
+  z-index: 3;
 }
 .header .navbar .hamb__bar {
   display: block;
