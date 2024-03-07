@@ -5,6 +5,7 @@ import { renderJsonFiles } from "./components/render.js"
 import { renderTeamMembers } from "./data/team.js"
 import { renderRoadmapCards } from "./data/roadmap.js"
 
+//Test github desktop
 window.addEventListener("DOMContentLoaded", () => {
   onHamb()
   onScroll()
