@@ -1,6 +1,7 @@
 MAIN INFORMATION
 ---------------------------------------------------------------------------------------------------------------------------------------
-Hi everyone! This repository is dedicated to a one-page site (Landing page) on the subject of NFT and cryptocurrency called Bored Apes.
+Hi everyone!
+This repository is dedicated to a one-page site (Landing page) on the subject of NFT and cryptocurrency called Bored Apes.
 
 MAIN FEATURES
 ---------------------------------------------------------------------------------------------------------------------------------------
